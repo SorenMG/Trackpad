@@ -8,24 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		459B82B021A0CDF700B5080D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B82AF21A0CDF700B5080D /* AppDelegate.swift */; };
-		459B82B221A0CDF700B5080D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B82B121A0CDF700B5080D /* ViewController.swift */; };
-		459B82B521A0CDF700B5080D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459B82B321A0CDF700B5080D /* Main.storyboard */; };
 		459B82B721A0CDFA00B5080D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459B82B621A0CDFA00B5080D /* Assets.xcassets */; };
 		459B82BA21A0CDFA00B5080D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459B82B821A0CDFA00B5080D /* LaunchScreen.storyboard */; };
+		459B82C221A0CE4A00B5080D /* TrackpadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B82C121A0CE4A00B5080D /* TrackpadViewController.swift */; };
+		459B82C421A0D0FB00B5080D /* CentralBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B82C321A0D0FB00B5080D /* CentralBluetoothManager.swift */; };
+		459F0C8E21A9DEF7003EB931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0C8D21A9DEF7003EB931 /* AppDelegate.swift */; };
+		459F0C9021A9DEF7003EB931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F0C8F21A9DEF7003EB931 /* ViewController.swift */; };
+		459F0C9221A9DEF8003EB931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459F0C9121A9DEF8003EB931 /* Assets.xcassets */; };
+		459F0C9521A9DEF8003EB931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459F0C9321A9DEF8003EB931 /* Main.storyboard */; };
+		459F0C9B21A9DF9B003EB931 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DEB21A1EB7D00580C22 /* PTChannel.m */; };
+		459F0C9C21A9DF9B003EB931 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DE921A1EB7C00580C22 /* PTProtocol.m */; };
+		459F0C9D21A9DF9B003EB931 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DEA21A1EB7C00580C22 /* PTUSBHub.m */; };
+		459F0C9E21A9DF9B003EB931 /* PTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DE221A1EB2700580C22 /* PTManager.swift */; };
+		459F0C9F21A9DF9B003EB931 /* PTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DF721A1ED8B00580C22 /* PTHelper.swift */; };
+		45A43DE321A1EB2700580C22 /* PTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DE221A1EB2700580C22 /* PTManager.swift */; };
+		45A43DF121A1EB7D00580C22 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DE921A1EB7C00580C22 /* PTProtocol.m */; };
+		45A43DF221A1EB7D00580C22 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DEA21A1EB7C00580C22 /* PTUSBHub.m */; };
+		45A43DF321A1EB7D00580C22 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DEB21A1EB7D00580C22 /* PTChannel.m */; };
+		45A43DF821A1ED8B00580C22 /* PTHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DF721A1ED8B00580C22 /* PTHelper.swift */; };
+		45A43DFA21A1EDC800580C22 /* PTManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A43DF921A1EDC800580C22 /* PTManagerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		459B82AC21A0CDF700B5080D /* TrackPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459B82AF21A0CDF700B5080D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		459B82B121A0CDF700B5080D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		459B82B421A0CDF700B5080D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		459B82B621A0CDFA00B5080D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459B82B921A0CDFA00B5080D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459B82BB21A0CDFA00B5080D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459B82C121A0CE4A00B5080D /* TrackpadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackpadViewController.swift; sourceTree = "<group>"; };
+		459B82C321A0D0FB00B5080D /* CentralBluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralBluetoothManager.swift; sourceTree = "<group>"; };
+		459F0C8B21A9DEF7003EB931 /* TrackpadMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackpadMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		459F0C8D21A9DEF7003EB931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		459F0C8F21A9DEF7003EB931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		459F0C9121A9DEF8003EB931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		459F0C9421A9DEF8003EB931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		459F0C9621A9DEF8003EB931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A43DE221A1EB2700580C22 /* PTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTManager.swift; sourceTree = "<group>"; };
+		45A43DE621A1EB7C00580C22 /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
+		45A43DE721A1EB7C00580C22 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		45A43DE821A1EB7C00580C22 /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
+		45A43DE921A1EB7C00580C22 /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocol.m; sourceTree = "<group>"; };
+		45A43DEA21A1EB7C00580C22 /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
+		45A43DEB21A1EB7D00580C22 /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		45A43DEC21A1EB7D00580C22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A43DED21A1EB7D00580C22 /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocol.h; sourceTree = "<group>"; };
+		45A43DEE21A1EB7D00580C22 /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUSBHub.h; sourceTree = "<group>"; };
+		45A43DEF21A1EB7D00580C22 /* Peertalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peertalk.h; sourceTree = "<group>"; };
+		45A43DF021A1EB7D00580C22 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		45A43DF621A1EBB800580C22 /* Peertalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Peertalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		45A43DF721A1ED8B00580C22 /* PTHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTHelper.swift; sourceTree = "<group>"; };
+		45A43DF921A1EDC800580C22 /* PTManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTManagerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		459B82A921A0CDF700B5080D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459F0C8821A9DEF7003EB931 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +81,12 @@
 		459B82A321A0CDF700B5080D = {
 			isa = PBXGroup;
 			children = (
+				45A43DE521A1EB7000580C22 /* peertalk */,
+				45A43DF621A1EBB800580C22 /* Peertalk-Bridging-Header.h */,
+				45A43DE221A1EB2700580C22 /* PTManager.swift */,
+				45A43DF721A1ED8B00580C22 /* PTHelper.swift */,
 				459B82AE21A0CDF700B5080D /* TrackPad */,
+				459F0C8C21A9DEF7003EB931 /* TrackpadMac */,
 				459B82AD21A0CDF700B5080D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				459B82AC21A0CDF700B5080D /* TrackPad.app */,
+				459F0C8B21A9DEF7003EB931 /* TrackpadMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +104,44 @@
 			isa = PBXGroup;
 			children = (
 				459B82AF21A0CDF700B5080D /* AppDelegate.swift */,
-				459B82B121A0CDF700B5080D /* ViewController.swift */,
-				459B82B321A0CDF700B5080D /* Main.storyboard */,
+				459B82C121A0CE4A00B5080D /* TrackpadViewController.swift */,
+				45A43DF921A1EDC800580C22 /* PTManagerDelegate.swift */,
+				459B82C321A0D0FB00B5080D /* CentralBluetoothManager.swift */,
 				459B82B621A0CDFA00B5080D /* Assets.xcassets */,
 				459B82B821A0CDFA00B5080D /* LaunchScreen.storyboard */,
 				459B82BB21A0CDFA00B5080D /* Info.plist */,
 			);
 			path = TrackPad;
+			sourceTree = "<group>";
+		};
+		459F0C8C21A9DEF7003EB931 /* TrackpadMac */ = {
+			isa = PBXGroup;
+			children = (
+				459F0C8D21A9DEF7003EB931 /* AppDelegate.swift */,
+				459F0C8F21A9DEF7003EB931 /* ViewController.swift */,
+				459F0C9121A9DEF8003EB931 /* Assets.xcassets */,
+				459F0C9321A9DEF8003EB931 /* Main.storyboard */,
+				459F0C9621A9DEF8003EB931 /* Info.plist */,
+			);
+			path = TrackpadMac;
+			sourceTree = "<group>";
+		};
+		45A43DE521A1EB7000580C22 /* peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				45A43DEC21A1EB7D00580C22 /* Info.plist */,
+				45A43DF021A1EB7D00580C22 /* LICENSE.txt */,
+				45A43DEF21A1EB7D00580C22 /* Peertalk.h */,
+				45A43DE721A1EB7C00580C22 /* prefix.pch */,
+				45A43DE621A1EB7C00580C22 /* PTChannel.h */,
+				45A43DEB21A1EB7D00580C22 /* PTChannel.m */,
+				45A43DE821A1EB7C00580C22 /* PTPrivate.h */,
+				45A43DED21A1EB7D00580C22 /* PTProtocol.h */,
+				45A43DE921A1EB7C00580C22 /* PTProtocol.m */,
+				45A43DEE21A1EB7D00580C22 /* PTUSBHub.h */,
+				45A43DEA21A1EB7C00580C22 /* PTUSBHub.m */,
+			);
+			path = peertalk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +164,23 @@
 			productReference = 459B82AC21A0CDF700B5080D /* TrackPad.app */;
 			productType = "com.apple.product-type.application";
 		};
+		459F0C8A21A9DEF7003EB931 /* TrackpadMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459F0C9821A9DEF8003EB931 /* Build configuration list for PBXNativeTarget "TrackpadMac" */;
+			buildPhases = (
+				459F0C8721A9DEF7003EB931 /* Sources */,
+				459F0C8821A9DEF7003EB931 /* Frameworks */,
+				459F0C8921A9DEF7003EB931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackpadMac;
+			productName = TrackpadMac;
+			productReference = 459F0C8B21A9DEF7003EB931 /* TrackpadMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +192,9 @@
 				ORGANIZATIONNAME = "Søren Møller Gade Hansen";
 				TargetAttributes = {
 					459B82AB21A0CDF700B5080D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					459F0C8A21A9DEF7003EB931 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				459B82AB21A0CDF700B5080D /* TrackPad */,
+				459F0C8A21A9DEF7003EB931 /* TrackpadMac */,
 			);
 		};
 /* End PBXProject section */
@@ -124,7 +225,15 @@
 			files = (
 				459B82BA21A0CDFA00B5080D /* LaunchScreen.storyboard in Resources */,
 				459B82B721A0CDFA00B5080D /* Assets.xcassets in Resources */,
-				459B82B521A0CDF700B5080D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459F0C8921A9DEF7003EB931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459F0C9221A9DEF8003EB931 /* Assets.xcassets in Resources */,
+				459F0C9521A9DEF8003EB931 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +244,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459B82B221A0CDF700B5080D /* ViewController.swift in Sources */,
+				459B82C221A0CE4A00B5080D /* TrackpadViewController.swift in Sources */,
+				45A43DE321A1EB2700580C22 /* PTManager.swift in Sources */,
+				45A43DF321A1EB7D00580C22 /* PTChannel.m in Sources */,
 				459B82B021A0CDF700B5080D /* AppDelegate.swift in Sources */,
+				459B82C421A0D0FB00B5080D /* CentralBluetoothManager.swift in Sources */,
+				45A43DFA21A1EDC800580C22 /* PTManagerDelegate.swift in Sources */,
+				45A43DF821A1ED8B00580C22 /* PTHelper.swift in Sources */,
+				45A43DF221A1EB7D00580C22 /* PTUSBHub.m in Sources */,
+				45A43DF121A1EB7D00580C22 /* PTProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459F0C8721A9DEF7003EB931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459F0C9B21A9DF9B003EB931 /* PTChannel.m in Sources */,
+				459F0C9C21A9DF9B003EB931 /* PTProtocol.m in Sources */,
+				459F0C9D21A9DF9B003EB931 /* PTUSBHub.m in Sources */,
+				459F0C9E21A9DF9B003EB931 /* PTManager.swift in Sources */,
+				459F0C9F21A9DF9B003EB931 /* PTHelper.swift in Sources */,
+				459F0C9021A9DEF7003EB931 /* ViewController.swift in Sources */,
+				459F0C8E21A9DEF7003EB931 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		459B82B321A0CDF700B5080D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				459B82B421A0CDF700B5080D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		459B82B821A0CDFA00B5080D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				459B82B921A0CDFA00B5080D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		459F0C9321A9DEF8003EB931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				459F0C9421A9DEF8003EB931 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -172,7 +302,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -233,7 +363,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -289,8 +419,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = soren.moller.TrackPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Peertalk-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,10 +439,62 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = soren.moller.TrackPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Peertalk-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		459F0C9921A9DEF8003EB931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 843KUTQ45Z;
+				INFOPLIST_FILE = TrackpadMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = soren.moller.TrackpadMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Peertalk-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		459F0C9A21A9DEF8003EB931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 843KUTQ45Z;
+				INFOPLIST_FILE = TrackpadMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = soren.moller.TrackpadMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Peertalk-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -331,6 +515,15 @@
 			buildConfigurations = (
 				459B82BF21A0CDFA00B5080D /* Debug */,
 				459B82C021A0CDFA00B5080D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459F0C9821A9DEF8003EB931 /* Build configuration list for PBXNativeTarget "TrackpadMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459F0C9921A9DEF8003EB931 /* Debug */,
+				459F0C9A21A9DEF8003EB931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
